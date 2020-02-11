@@ -5,7 +5,7 @@ import json
 
 class ScrollPaginatonSpider(scrapy.Spider):
     name = 'scroll-paginaton'
-    allowed_domains = ['quotes.toscrape.com/scroll']
+    a#llowed_domains = ['quotes.toscrape.com/scroll']
     site_url = "http://quotes.toscrape.com/api/quotes?page="
     start_urls = [site_url + '1']
     download_delay = 1.5
